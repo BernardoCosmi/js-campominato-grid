@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+footer{
+    padding: 10px;
+}
+
+main{
+    background-color: #7FFFD4;
+    height: 80vh;
+}
+header>div>img{
+    width: 60px;
+}
+
+#play{
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: smaller;
+}
