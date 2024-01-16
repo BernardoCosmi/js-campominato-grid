@@ -9,14 +9,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    height: 10vh;
 }
 footer{
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    margin: 5px 5px;
 }
 
 main{
     background-color: #7FFFD4;
-    min-height: 80vh;
+    min-height: 85vh;
     display: flex;
     justify-content: center;
 }
