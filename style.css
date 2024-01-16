@@ -38,7 +38,7 @@ header>div>img{
     flex-wrap: wrap;
 }
 
-.box{
+.box-easy{
     border: 1px solid black;
     flex-basis: calc( 100% / 10 );
     aspect-ratio: 1;
@@ -46,9 +46,33 @@ header>div>img{
     align-items: center;
     justify-content: center;
 }
+.box-medium{
+    border: 1px solid black;
+    flex-basis: calc( 100% / 9 );
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-hard{
+    border: 1px solid black;
+    flex-basis: calc( 100% / 7 );
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.box>span{
+.box-easy>span{
     font-size: 1.5em;
+    font-weight: bold;
+}
+.box-medium>span{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.box-hard>span{
+    font-size: 2em;
     font-weight: bold;
 }
 
